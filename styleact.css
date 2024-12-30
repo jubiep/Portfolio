@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", "Prompt", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: -moz-radial-gradient(center,ellipse closest-corner,rgb(165, 34, 34) ,#1d1b1b );
+    background-image: -webkit-radial-gradient(center,ellipse closest-corner,rgb(165, 34, 34) ,#1d1b1b );
+}
+
+.navbar h1{
+    color: white;
+    padding: 10px;
+    /* padding-right: 1440px; */
+    padding-left: 30px;
+}
+.navbar{
+    /* border-radius: 20px; */
+    background-color: rgb(29, 28, 28);
+    /* border: 1px solid black; */
+    z-index: 50;
+    width: 100%;
+}
+\.navbar {
+    height: 60px;
+    transition: 1s;
+    transition-delay: 0s;
+}
+\.navbar:hover{
+    height: 80px;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container .menu {
+    list-style: none;
+    margin-right: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.container .menu li {
+    display: inline;
+    margin-right: 20px;
+    justify-content: end;
+}
+.container .menu li :hover{
+    text-decoration: underline;
+}
+.container .menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.mainpro1 center {
+    background-image: url('photos/วิวปก.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    padding: 200px;
+    z-index: 0;
+}
+.mainpro1 h1{
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+.parallax-container{
+    position: relative;
+    overflow: hidden;
+}
+img{
+    position: absolute;
+    object-fit: center;
+    z-index: 0;
+}
+h2,h3{
+    margin: 2rem 2rem 1rem;
+    padding: 0;
+}
+p{
+    margin: 0 2rem 2rem;
+    padding: 0;
+}
+.proudact{
+    margin-right: 300px;
+    margin-left: 300px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.teaser{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-shadow: 0 0 5px black;
+    text-align: center;
+    font-size: 2rem;
+}
+.teaser h2{
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.teaser .proudhead{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.slide{
+    position: relative;
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    z-index: 10;
+}
+.slide img{
+    height: 500px;
+    position: relative;
+}
+.items{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.items img{
+    border-radius: 10px;
+    width: 500px;
+    height: 350px;
+    margin: 0;
+    object-fit: cover;
+}
+.items1 img{
+    border-radius: 10px;
+    object-fit: cover;
+    background-color: none;
+    margin: 0 auto;
+}
+.item1{
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.slide .slick-prev{
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    z-index: 1;
+}
+.slide .slick-next{
+    position: absolute;
+    top: 150px;
+    right: 10px;
+}
+.slide .slick-prev:hover{
+    background-color: rgb(180, 179, 179);
+}
+.slide .slick-next:hover{
+    background-color: rgb(180, 179, 179);
+}
+.slide .slick-arrow{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+.slide .slick-dots{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+}
+.slide .slick-dots li{
+    list-style: none;
+    margin: 0 2px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 50%;
+}
+.slide .slick-active{
+    background-color: rgb(82, 80, 80) !important;
+}
+.head{
+    margin: 70px;
+    margin-left: 0 ;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 5px black;
+    padding: 50px;
+    background-color: rgb(29, 28, 28) ;
+}
+.text h2{
+    text-shadow: 0 0 10px black;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    justify-content: space-evenly;
+}
+.subhead{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+.detail{
+    text-align: center;
+    width: 500px;
+    color: white;
+}
+.contact{
+    margin-top: 50px;
+    padding-top: 30px;
+    color: white;
+    background-color: rgb(29, 28, 28);
+}
+.contacthead{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.contactflex{
+    padding-left: 30px ;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.maincontact_1{
+    padding-right: 100px;
+}
+
+.contact{
+    margin-top: 50px;
+    padding-top: 30px;
+    color: white;
+    background-color: rgb(29, 28, 28);
+}
+.contacthead{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.contactflex{
+    padding-left: 30px ;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.maincontact_1{
+    padding-right: 100px;
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link rel="stylesheet" href="styleindex.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Itim&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Itim&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body > 
+    <div class="mainpro1">
+        <center>
+            <h1> Welcome To Wiramon Magird </h1>
+            <h1> Portfolio, Profile </h1>
+        </center>
+    </div>
+    <div class="navbar" id="nav">
+        <div class="container">
+            <div class="logo">
+                <h1> Portfolio </h1>
+            </div>
+                <ul class="menu">
+                    <div class="transition">
+                        <li>
+                            <a href="index.html"> Profile </a>
+                        </li>
+                        <li>
+                            <a href="Activity_page.html"> Activities </a>
+                        </li>
+                        <li>
+                            <a href="Certificate_page.html"> Certificates </a>
+                        </li>
+                    </div>
+                </ul>
+        </div>
+    </div>
+    <script>
+        var nav = document.getElementById("nav")
+            window.onscroll = function(){
+                if(window.pageYOffset > 450){
+                    nav.style.position = "fixed";
+                    nav.style.top = 0;
+                }else{
+                    nav.style.position = "relative";
+                    nav.style.top = 100;
+                }
+            }
+    </script>
+    <div class="mainpro2">
+        <div>
+            <h2> Profile </h2>
+        </div>
+        <div class="mainpro2_1">
+            <div class="mainpro2_1img">
+            <img src="photos/ปก2.jpeg">
+            </div>
+            <div class="mainpro2_1infrom">
+                <h3> Personal Information </h3><br>
+                <p> ชื่อ-สกุล : นางสาววิรมณ มาเกิด </p>
+                <p> ชื่อเล่น : สตางค์ </p>
+                <p> วัน / เดือน / ปีเกิด : 11 กันยายน พ.ศ.2550 </p>
+                <p> อายุ : 17 ปี </p>
+                <p> สัญชาติ / เชื้อชาติ : ไทย </p>
+                <p> ศาสนา : พุทธ </p>
+                <p> แผนการเรียน : วิทยาศาสตร์ - เทคโนโลยี </p>
+            </div>
+        </div>
+    </div>
+    <div class="mainpro3">
+        <center>
+        <h2> Skills </h2>
+        <div class="framepro3">
+            <img src="photos/VScode_icon.png" height="50px">
+            <img src="photos/Python-icon.png" height="60px">
+            <img src="photos/HTML5_icon.png" height="60px">
+            <img src="photos/CSS_icon.png" height="60px">
+            <img src="photos/C_icon.png" height="60px">
+        </div>
+        </center>
+    </div>
+    <div class="mainpro4_0">
+        <h2> Personal Information </h2>
+    </div>
+    <div class="mainpro4">
+        <div class="mainpro4_1">
+            <button class="accordion">ที่อยู่</button>
+                <div class="panel">
+                    <p>6/1 ซ.ติวานนท์ 46/1 ถ.ติวานนท์ อ.เมือง ต.ท่าทราย จ.นนทบุรี 11000</p>
+                </div>
+        </div>
+        <div class="mainpro4_2">
+            <button class="accordion"> ข้อมูลครอบครัว </button>
+                <div class="panel">
+                    <p> บิดา : วิศัลย์ มาเกิด </p>
+                    <p> อาชีพ : พนักงานบริษัท </p>
+                    <p> โทร : 094-981-6644 </p>
+                    <p> มารดา : วิภาภรณ์ มาเกิด </p>
+                    <p> อาชีพ : แม่บ้าน </p>
+                    <p> โทร : 081-456-8405</p>
+                </div>
+        </div>
+        <div class="mainpro4_3">
+            <button class="accordion"> งานอดิเรก </button>
+                <div class="panel">
+                    <p> เล่นเกม </p>
+                    <p> ฟังเพลง </p>
+                    <p> วาดรูป </p>
+                    <p> อ่านการ์ตูน </p>
+                    <p> ดูการ์ตูน & หนัง & ซีรีส์</p>
+                </div>
+        </div>
+    </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+                } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+            });
+            }
+        </script>  
+    <div class="mainpro5">
+        <h2> Education </h2>
+    </div>
+    <div class="mainpro6">
+        <div class="mainpro6_1">
+            <p> ระดับชั้นอนุบาล </p>
+            <p> พ.ศ.2552 - พ.ศ.2555 </p>
+            <p> โรงเรียนอนุบาลแสงโสม </p>
+        </div>
+        <div class="mainpro6_2">
+            <p> ระดับชั้นประถมศึกษา </p>
+            <p> พ.ศ.2555 - พ.ศ.2561 </p>
+            <p> โรงเรียนพิชญศึกษา </p>
+        </div>
+        <div class="mainpro6_3">
+            <p> ระดับชั้นมัธยมศึกษา </p>
+            <p> พ.ศ.2561 - พ.ศ.2568 </p>
+            <p> โรงเรียนสวนกุหลาบวิทยาลัย นนทบุรี </p>
+        </div>
+    </div>
+    <div class="mainpro7_0">
+        <div class="mainpro7">
+            <img class="img1" src="photos/sangsom.png">
+            <img class="img2" src="photos/4_FULL_COLOR_01.png">
+            <img class="img3" src="photos/skn.png">
+        </div>
+    </div>
+    <div class="mainpro8">
+        <div class="mainpro8_1">
+            <h2> Transcript </h2>
+        </div>
+        <!-- <div class="mainpro8_2">
+            <div class="maipro8_2_1">
+                <img src="photos/ปพ1_1.jpg">
+            </div>
+            <div class="mainpro8_2_2">
+                <img src="photos/ปพ1_2.jpg">
+            </div>
+        </div>
+    </div> -->
+    <div class="mainpro8_2">
+        <div class="mainpro8_2_1">
+            <img id="myImg1" src="photos/ปพ1_1.jpg" alt="ปพ.1">
+        </div>
+        <div class="mainpro8_2_2">
+            <img id="myImg2" src="photos/ปพ1_2.jpg" alt="ปพ.1">
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal1" class="modal1">
+        <span class="close1">&times;</span>
+        <img class="modal-content1" id="img01">
+        <div id="caption1"></div>
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal1");
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg1");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption1");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close1")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+    </script>
+    
+    <div id="myModal2" class="modal2">
+        <span class="close2">&times;</span>
+        <img class="modal-content2" id="img02">
+        <div id="caption2"></div>
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal2");
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg2");
+        var modalImg = document.getElementById("img02");
+        var captionText = document.getElementById("caption2");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close2")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+    </script>
+        
+    <div class="mainpro9">
+    <center>
+        <p> GPAX : 3.92 </p>
+    </div>
+    <div class="contact">
+        <div class="contacthead">
+            <h3> Contact me ! </h3>
+        </div>
+        <div class="contactflex">
+            <div class="maincontact_1">
+                <p> Email : stang.wiramol@gmail.com </p>
+                <p> Line : stang_911</p>
+                <p> Tel : 080-014-4236 </p>
+            </div>
+            <div class="maincontact_2">
+                <p> IG : ssgnqt </p>
+                <p> Facebook : Wiramon Magird </p>
+                <p> Github : jubiep </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

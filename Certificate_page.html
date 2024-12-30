@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link rel="stylesheet" href="stylecer.css">
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!--fontawsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--slickjs-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+				
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Itim&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Itim&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body > 
+    <div class="mainpro1">
+        <center>
+            <h1> Welcome To Wiramon Magird </h1>
+            <h1> Portfolio, Certificates </h1>
+        </center>
+    </div>
+    <div class="navbar" id="nav">
+        <div class="container">
+            <div class="logo">
+                <h1> Portfolio </h1>
+            </div>
+                <ul class="menu">
+                    <div class="transition">
+                        <li>
+                            <a href="index.html"> Profile </a>
+                        </li>
+                        <li>
+                            <a href="Activity_page.html"> Activities </a>
+                        </li>
+                        <li>
+                            <a href="Certificate_page.html"> Certificates </a>
+                        </li>
+                    </div>
+                </ul>
+        </div>
+    </div>
+
+    <script>
+        var nav = document.getElementById("nav")
+            window.onscroll = function(){
+                if(window.pageYOffset > 450){
+                    nav.style.position = "fixed";
+                    nav.style.top = 0;
+                }else{
+                    nav.style.position = "relative";
+                    nav.style.top = 100;
+                }
+            }
+    </script>
+
+    <div class="maincer1">
+        <center>
+            <h3> เกียรติบัตรผลการเรียนระดับมัธยมปลาย </h3>
+        </center>
+    </div>
+    <div class="slide">
+        <div class="items">
+          <img src="photos/เรียนดี1.jpg" >
+        </div>
+        <div class="items">
+          <img src="photos/เรียนดี2.jpg" >
+        </div>
+        <div class="items">
+            <img src="photos/เรียนดี3.jpg" >
+          </div>
+        <div class="items">
+            <img src="photos/เรียนดี4.jpg" >
+        </div>
+        <div class="items">
+            <img src="photos/เพชรสวนนนท์.jpg" >
+          </div>
+    </div>
+
+    <div class="maincer1">
+        <center>
+            <h3> เกียรติบัตรค่าย & การแข่งขัน </h3>
+        </center>
+    </div>
+
+    <div class="slide">
+        <div class="items">
+          <img src="photos/certobeit.jpg" >
+        </div>
+        <div class="items">
+          <img src="photos/แข่ง.jpg" >
+        </div>
+    </div>
+
+    <div class="maincer1">
+        <center>
+            <h3> เกียรติบัตรอบรม </h3>
+        </center>
+    </div>
+
+    <div class="slide">
+        <div class="items">
+          <img src="photos/อบรมหุ่นยนต์.jpg" >
+        </div>
+        <div class="items">
+          <img src="photos/อบรมสอวน.jpg" >
+        </div>
+        <div class="items">
+            <img src="photos/oai.png" >
+        </div>
+        <div class="items">
+            <img src="photos/อบรมchat bot.png" >
+        </div>
+    </div>
+
+    <div class="maincer1">
+        <center>
+            <h3> เกียรติบัตรอื่น ๆ </h3>
+        </center>
+    </div>
+
+    <div class="slide">
+        <div class="items">
+          <img src="photos/ธารน้ำใจ.jpg" >
+        </div>
+        <div class="items">
+          <img src="photos/ทำพานม.5.jpg" >
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(() => {
+            $('.slide').slick({
+                dots: true
+            });
+            $('.slide .slick-prev').html('<i class="fa-solid fa-chevron-left"></i>');
+            $('.slide .slick-next').html('<i class="fa-solid fa-chevron-right"></i>');
+            $('.slide .slick-dots li').html('')
+                })
+    </script>
+
+<div class="contact">
+    <div class="contacthead">
+        <h3> Contact me ! </h3>
+    </div>
+    <div class="contactflex">
+        <div class="maincontact_1">
+            <p> Email : stang.wiramol@gmail.com </p>
+            <p> Line : stang_911</p>
+            <p> Tel : 080-014-4236 </p>
+        </div>
+        <div class="maincontact_2">
+            <p> IG : ssgnqt </p>
+            <p> Facebook : Wiramon Magird </p>
+            <p> Github : jubiep </p>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

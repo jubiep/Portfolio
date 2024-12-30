@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link rel="stylesheet" href="styleact.css">
+
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!--fontawsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--slickjs-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Itim&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Itim&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body > 
+    <div class="mainpro1">
+        <center>
+            <h1> Welcome To Wiramon Magird </h1>
+            <h1> Portfolio, Activities </h1>
+        </center>
+    </div>
+    <div class="navbar" id="nav">
+        <div class="container">
+            <div class="logo">
+                <h1> Portfolio </h1>
+            </div>
+                <ul class="menu">
+                    <div class="transition">
+                        <li>
+                            <a href="index.html"> Profile </a>
+                        </li>
+                        <li>
+                            <a href="Activity_page.html"> Activities </a>
+                        </li>
+                        <li>
+                            <a href="Certificate_page.html"> Certificates </a>
+                        </li>
+                    </div>
+                </ul>
+        </div>
+    </div>
+
+    <script>
+        var nav = document.getElementById("nav")
+            window.onscroll = function(){
+                if(window.pageYOffset > 450){
+                    nav.style.position = "fixed";
+                    nav.style.top = 0;
+                }else{
+                    nav.style.position = "relative";
+                    nav.style.top = 100;
+                }
+            }
+    </script>
+
+    <div class="parallax-container" style="height: 500px;">
+        <img class="parallax" src="photos/ปก4.jpeg"  >
+        <div class="teaser">
+            <div class="proudhead">
+                <h2> Proud Works </h2>
+                <h2> Website development </h2>
+            </div>
+        </div>
+    </div>
+    <article class="proudact">
+        <div class="text">
+            <h2> Portfolio Website </h2>
+        </div>
+        <div class="slide">
+            <div class="items">
+              <img src="photos/web1.png" >
+            </div>
+            <div class="items">
+              <img src="photos/แอค.jpg" >
+            </div>
+            <div class="items">
+                <img src="photos/แอค_2.jpg" >
+            </div>
+        </div>
+        <div class="text">
+            <p> จัดทำเว็บพอร์ตฟอลิโอรวมรวมผลงาน และกิจกรรมตั้งแต่ช่วงมัธยมศึกษาปีที่ 4-6 เนื่องจากต้องการศึกษาการพัฒนาเว็บไซต์ด้วย HTML, Css และ Js ต้องการสร้างเว็บไซต์ที่สามารถนำมาใช้ประโยชน์ได้ จึงเลือกทำเว็บไซต์พอร์ตฟอลิโอ ในการพัฒนาเว็บไซต์ดิฉันศึกษาเพียง HTML และ  Css เท่านั้น ส่วน Js ดิฉันใช้ jQuery หรือJavaScript Library และFramework ในการช่วยอำนวยความสะดวก ดิฉันยังไม่สามารถเข้าใจ Js ได้อย่างลึกซึ้ง แต่ตั้งใจจะศึกษาต่อในอนาคต  </p>
+        </div>
+    </article>
+
+    <div class="parallax-container" style="height: 500px;">
+        <img class="parallax" src="photos/จดจำ1.JPG"  >
+        <div class="teaser">
+            <div class="proudhead">
+                <h2> Proud Works </h2>
+                <h2> Music Video </h2>
+            </div>
+        </div>
+    </div>
+    <article class="proudact">
+        <div class="text">
+            <h2> จดจำ - Only Monday |Unofficial MV| </h2>
+        </div>
+        <div class="slide">
+            <div class="items">
+              <img src="photos/จดจำ2.png" >
+            </div>
+            <div class="items">
+                <img src="photos/จดจำ6.jpg" >
+            </div>
+            <div class="items">
+                <img src="photos/จดจำ5.png" >
+            </div>
+            <div class="items">
+              <img src="photos/จดจำ3.JPG" >
+            </div>
+            <div class="items">
+                <img src="photos/จดจำ4.jpeg" >
+            </div>
+        </div>
+        <div class="text">
+            <p> จัดทำ Music Video เพลง จดจำ - Only Monday สถานที่ที่ใช้ถ่ายทำหลัก คือ สวนรถไฟ และโรงเรียนสวนกุหลาบวิทยาลัย นนทบุรี งานนี้เป็นงานกลุ่มรายวิชามัลติมีเดียวิชาของสายการเรียน ดิฉันได้รับหน้าที่หลักเป็น Director, วาด และเขียน Story Bord และได้รับหน้าที่ Editor ตัดต่อในบางส่วน ดิฉันทำหน้าที่กำกับดูแลงานหลาย ๆ ส่วนตั้งแต่เริ่มต้น ดิฉันคอยช่วยเหลือเพื่อนในด้านที่เพื่อนไม่ถนัด และเพื่อนก็ช่วยดิฉันในด้านที่ไม่ถนัดเช่นกัน หลังจากวาด Story bord ถ่ายทำ ตัดต่อ จนเสร็จดิฉันยังได้รับประสบการณ์มากมาย ทั้งต้องมีความคิดสร้างสรรค์ ความรับผิดชอบ และการทำงานร่วมกับผู้อื่น ดิฉันรู้สึกสนุกกับงานชิ้นนี้มาก ๆ และรู้สึกภูมิใจที่งานชิ้นนี้ออกมาดีกว่าที่หวังไว้ และได้รับคำชมจากคุณครู  </p>
+        </div>
+    </article>
+
+    <div class="parallax-container" style="height: 500px;">
+        <img class="parallax" src="photos/ใช้จ่ายไม่เป็นระบบ (1).png"  >
+        <div class="teaser">
+            <div class="proudhead">
+                <h2> Proud Works </h2>
+                <h2> Application Design </h2>
+            </div>
+        </div>
+    </div>
+    <article class="proudact">
+        <div class="text">
+            <h2> Maruay Application </h2>
+        </div>
+        <div class="slide">
+            <div class="items1">
+              <img src="photos/2-Photoroom.png" >
+            </div>
+            <div class="items1">
+              <img src="photos/3-Photoroom.png" >
+            </div>
+            <div class="items1">
+                <img src="photos/4-Photoroom.png" >
+            </div>
+            <div class="items1">
+                <img src="photos/5-Photoroom.png" >
+            </div>
+            <div class="items1">
+                <img src="photos/6-Photoroom.png" >
+            </div>
+        </div>
+            <div class="text">
+            <h4> โครงงาน IS </h4>
+            <p> ออกแบบแอปพลิเคชันเกี่ยวกับการเงิน ใช้คำนวณค่าใช้จ่ายต่อเดือน เป็นเหมือนสมุดออมเงินแบบดิจิตอล และยังมีทั้งคำแนะนำ การลงทุน และการออมสำหรับผู้ที่มีปัญหาทางการเงิน ซึ่งมีฟังก์ชันที่ใช้งานง่าย และหลากหลาย โดยจำทำโปรโตไทป์ใน canva เพื่อใช้ในการนำเสนอหน้าชั้นเรียน </p>
+        </div>
+    </article>
+    
+    <div class="parallax-container" style="height: 500px;" >
+        <img class="parallax" src="photos/tobeit.png"  >
+        <div class="teaser">
+            <div class="proudhead">
+                <h2> Proud Activities </h2>
+                <h2> Camp </h2>
+            </div>
+        </div>
+    </div>
+    <article class="proudact">
+        <div class="text">
+            <h2> ToBe'IT Camp </h2>
+        </div>
+        <div class="slide">
+            <div class="items">
+              <img src="photos/tobeit_3.png" >
+            </div>
+            <div class="items">
+              <img src="photos/tobeit_4.png" >
+            </div>
+            <div class="items">
+                <img src="photos/tobeit_2.png" >
+            </div>
+        </div>
+        <div class="text">
+            <h4> สถาบันเทคโนโลยีพระจอมเกล้าคุณทหารลาดกระบัง </h4>
+            <p> ได้เข้าร่วมโครงการ ToBe'IT ของคณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าคุณทหารลาดกระบัง ซึ่งภายในกิจกรรมจะมีให้เรียนเกี่ยวกับ 4 วิชาพื้นฐานด้านคอมพิวเตอร์ ในตอนท้ายของกิจกรรมรอบออนไลน์จะมีให้ทำแบบทดสอบวัดความรู้ 2 รูปแบบ คือแบบ ควิซ และ แบบแก้ปัญหา Python ส่งใน G-lern ทั้งหมดนี้ดิฉันมีคะแนนผ่านเกณฑ์แบบทดสอบออนไลน์ความรู้เบื้องต้นเกี่ยวกับเทคโนโลยีสารสนเทศ การเข้าร่วมโครงการครั้งนี้ทำให้ได้รับความรู้ที่ไม่เคยรู้ และพัฒนาทักษะด้านไอที ด้านการเขียน Python มากเลยค่ะ โจทย์หลายข้อต้องใช้เวลาทำนานมาก ๆ ก็ทำให้ดิฉันได้ฝึกคิด และแก้ปัญหาด้วยค่ะ หลังจากจบกิจกรรมนี้ดิฉันก็รักการเขียนโค้ดมากขึ้น และอยากพัฒนาต่ออีกด้วยค่ะ </p>
+        </div>
+    </article>
+
+    <div class="parallax-container" style="height: 500px;">
+        <img class="parallax" src="photos/ธารน้ำใจ6.jpg" >
+        <div class="teaser">
+            <div class="proudhead">
+                <h2> Proud Activities </h2>
+                <h2> Volunteer </h2>
+            </div>
+        </div>
+    </div>
+    <article class="proudact">
+        <div class="text">
+            <h2> ธารน้ำใจลูกสวนนนท์สู่ชุมชน </h2>
+        </div>
+        <div class="slide">
+            <div class="items">
+              <img src="photos/ธารน้ำใจ8.jpg" >
+            </div>
+            <div class="items">
+              <img src="photos/ธารน้ำใจ7.jpg" >
+            </div>
+            <div class="items">
+                <img src="photos/กิจธารน้ำใจ.jpg" >
+            </div>
+            <div class="items">
+                <img src="photos/ธารน้ำใจ4.jpg" >
+            </div>
+            <div class="items">
+                <img src="photos/ธารน้ำใจ3.jpg" >
+            </div>
+        </div>
+        <div class="text">
+            <h4> ณ โรงเรียนวัดสะพานสูง (รถไฟนุเคราะห์)</h4>
+            <p> กิจกรรมที่โรงเรียนจัดให้กับนักเรียนระดับชั้นมัธยมศึกษาปีที่ 6 ทุกห้อง โดยมอบหน้าที่ให้แต่ละห้องรวบรวมเงินบริจาคจากวิธีใดก็ได้ ส่วนใหญ่เป็นการเล่นดนตรีเปิดหมวก และนำเงินที่ได้รับบริจาคมาเป็นจำนวน จัดกิจกรรมให้น้อง ๆ ป.3 - ป.4 ที่โรงเรียนวัดสะพานสูง และเงินที่เหลือนำไปจัดซื้ออุปกรณ์ทางการศึกษา และมอบให้กับทางโรงเรียน ในกิจกรรมนี้ดิฉันได้รับหน้าที่เป็น Headของห้อง และเหรัญญิก หน้าที่หลัก ๆ คือ ช่วยประสานงานระหว่างครูกับเพื่อน ๆ ออกแบบกิจกรรม ตารางเวลา จัดการสถานที่  ทำบัญชีจัดแจงเงินเพื่อใช้ในฝ่ายต่าง ๆ เสนออุปกรณ์ทางการศึกษา รูปแบบฐานความรู้ และยังได้รับหน้าที่จัดฐานที่ 5 ซึ่งดิฉันจัดเป็นฐานร้อยกำไล เพื่อฝึกสมาธิให้กับน้อง ๆ ค่ะ จากกิจกรรมหนูได้รับผิดชอบหลายหน้าที่ ทำให้ดิฉันต้องมีความรับผิดชอบต่อหน้าที่มาก ๆ  ดิฉันจึงได้ฝึกทั้งความเป็นผู้นำ การดูแลเด็ก พูดคุยกับผู้ใหญ่(คุณครู) และได้ใช้ความคิดแก้ไขปัญหาต่าง ๆ ที่เกิดขึ้นระหว่างกิจกรรมค่ะ  </p>
+        </div>
+    </article>
+
+    <article>
+        <!-- <div class="head">
+            <h2> Sub Proud Work </h2>
+        </div>
+            <div class="content_1">
+                <div class="slide" >
+                    <div class="items">
+                        <img src="photos/เมนู.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/หน้าหลัก.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/โปรแกรมคำนวณภาษี.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/ข่าวสารต่าง ๆ.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/ข้อมูลทั่วไปเกี่ยวกับภาษี.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/chat box.png" >
+                    </div>
+                </div>
+                <div class="subhead">
+                    <h2> เว็บเทพซ่ารอบรู้เรื่องภาษี </h2>
+                </div>
+                <div class="detail" style="width: 100%;">
+                    <center>
+                        <h4> สำหรับสมัครเข้าค่าย JWC </h4>
+                        <p style="margin-left: 400px;margin-right: 400px;"> ออกแบบแอพพลิเคชั่นเกี่ยวกับภาษี มีทั้งข้อมูลความรู้ ข่าวสารมากมายเพื่อเป็นประโยชน์ให้กับคนทุกช่วงวัยได้ศึกษาเกี่ยวกับภาษี และโดยเฉพาะสำหรับคนที่ไม่รู้ เนื่องจากภาษีเป็นสิ่งสำคัญที่ควรรู้ในการใช้ชีวิต อีกทั้งยังมีช่องแชทในการพูดคุยปรึกษากับบอทที่ถูกเทรน โดยจัดทำโปรโตไทป์ใน canva </p>
+                    </center>
+                </div>
+            </div>
+        </div> -->
+        <div class="head">
+            <h2> กิจกรรมอื่น ๆ ที่เกี่ยวกับสาขา </h2>
+        </div>
+        <div class="content">
+            <div class="content_1">
+                <div class="slide" style="margin: 0;">
+                    <div class="items">
+                        <img src="photos/กิจอบรมหุ่น2.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจอบรมหุ่น.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจอบรมหุ่น3.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจอบรมหุ่น6.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจอบรมหุ่น5.jpg" >
+                    </div>
+                </div>
+                <div class="subhead">
+                    <h3> กิจกรรมอบรมหุ่นยนต์ปัญญาประดิษฐ์ </h3>
+                </div>
+                <div class="detail">
+                    <P> ข้าร่สมการอบรมเกี่ยวกับหุ่นยนต์ปัญญาประดิษฐ์ ได้ศึกษาการเขียน aduino ส่วนมากในการอบรมครั้งนี้จะเน้นให้ปรับแก้ตามความเหมาะสมมากกว่า ซึ่งได้ลองทั้งการปรับเซนเซอร์ตามสีต่าง ๆ การรับภาพจากกล้อง การขึ้นข้อความบนจอ และท้ายสุดของกิจกรรมให้แต่ละทีมปรับความเร็ว และเซนเซอร์เพื่อมาแข่งกันวิ่งตามเส้นสนาม ซึ่งทีมดิฉันสามารถ วิ่งได้เร็ว และไม่หลุดเส้น ตอนนั้นดิฉันต้องใช้โน๊ตบุ๊คของเพื่อนเนื่องจากไม่มีของตนเอง แต่ก็สนุกกับมันมาก ๆ เลยค่ะ</P>
+                </div>
+            </div>
+            <div class="content_2">
+                <div class="slide" style="margin: 0;">
+                    <div class="items">
+                        <img src="photos/กิจแข่ง1.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจแข่ง2.jpg" >
+                    </div>
+                </div>
+                <div class="subhead">
+                    <h3> แข่งขันตอบปัญหาคอมพิวเตอร์ และไอที </h3>
+                </div>
+                <div class="detail">
+                    <p>  การแข่งขันตอบปัญหาคอมพิวเตอร์ และไอที ส่วนมากคำถามจะเป็นเกี่ยวกับทางด้านเป็นส่วนใหญ่ ซึ่งหนูจะมีความรู้อยู่บ้าง ทั้งจากที่เคยศึกษาเอง และจากที่โรงเรียน ทั้ง software, hardware และปัญหาทั่วไปเกี่ยวกับคอมพิวเตอร์ ซึ่งการแข่งครั้งนี้ทำให้ได้วัดความรู้คอมพิวเตอร์ของตัวเอง ได้รู้ทั้งจุดที่ดี และจุดที่ผิดพลาดที่ควรแก้ไขต่อไป</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_1">
+                <div class="slide" style="margin: 0;">
+                    <div class="items">
+                        <img src="photos/กิจสาย5.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจสาย1.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจสาย2.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจสาย3.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจสาย4.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจสาย5.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจสาย6.png" >
+                    </div>
+                </div>
+                <div class="subhead">
+                    <h3> กิจกรรมสายการเรียน </h3>
+                </div>
+                <div class="detail">
+                    <p> ได้เรียนเกี่ยวกับ micro:bit ด้วยการต่อ block ในเว็บไซต์ในห้องเรียน และได้ไปทัศนศึกษาที่ synhub สมาคมไอโอที ตอนม.4  ได้รับความรู็เกี่ยวกับไอโอที ไความรู้เกี่ยวกับการเขียนเโค้ดลงบอร์ด และได้ workshop  การผลิตบอร์ดในสถานที่จริง ตลอดระยะเวลาที่ผ่านมา ดิฉันก็ได้ค้นพบความชอบของตัวเองจากกิจกรรมของโรงเรียนด้วยค่ะ </p>
+                </div>
+            </div>
+            <div class="content_2">
+                <div class="slide" style="margin: 0;">
+                    <div class="items">
+                        <img src="photos/กิจสอวน1.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจสอวน2.jpg" >
+                    </div>
+                </div>
+                <div class="subhead">
+                    <h3> กิจกรรมอบรมเตรียมความพร้อมสอวน.คอมพิวเตอร์ </h3>
+                </div>
+                <div class="detail">
+                    <p> ได้รับการอบรมเพื่อเตรียมความพร้อมในการเข้าสอบสอวน.วิชาคอมพิวเตอร์ ได้รับการอบรมทั้งด้านคณิตศาสตร์ และ การอ่านการทำงานของโปรแกรม </p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_1">
+                <div class="slide" style="margin: 0;">
+                    <div class="items">
+                        <img src="photos/โอเพนเฮ้า1.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/โอเพนเฮ้า2.jpg" >
+                    </div>
+                    <!-- <div class="items">
+                        <img src="photos/โอเพ้นเฮ้า3.jpg" >
+                    </div> -->
+                </div>
+                <div class="subhead">
+                    <h3> Open House KMITL </h3>
+                </div>
+                <div class="detail">
+                    <p> ได้ไปฟังหลักสูตร การเรียนจากรุ่นพี่ และได้ดูสถานที่จริง ชอบสังคม และบรรยกาศของสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหาร ลาดกระบัง มากเลยค่ะ และพอได้ฟังหลักสูตรกับการเรียนของคณะวิศวกรรม สาขาคอมพิวเตอร์ ทำให้รู้สึกสนใจมากขึ้นมากเลยค่ะ </p>
+                </div>
+            </div>
+            <div class="content_2">
+                <div class="slide" style="margin: 0;" >
+                    <div class="items">
+                        <img src="photos/เมนู.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/หน้าหลัก.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/โปรแกรมคำนวณภาษี.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/ข่าวสารต่าง ๆ.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/ข้อมูลทั่วไปเกี่ยวกับภาษี.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/chat box.png" >
+                    </div>
+                </div>
+                <div class="subhead">
+                    <h2> เว็บเทพซ่ารอบรู้เรื่องภาษี </h2>
+                </div>
+                <div class="detail">
+                    <center>
+                        <h4> สำหรับสมัครเข้าค่าย JWC </h4>
+                        <p > ออกแบบแอปพลิเคชั่นเกี่ยวกับภาษี มีทั้งข้อมูลความรู้ ข่าวสารมากมายเพื่อเป็นประโยชน์ให้กับคนทุกช่วงวัยได้ศึกษาเกี่ยวกับภาษี และโดยเฉพาะสำหรับคนที่ไม่รู้ เนื่องจากภาษีเป็นสิ่งสำคัญที่ควรรู้ในการใช้ชีวิต อีกทั้งยังมีช่องแชทในการพูดคุยปรึกษากับบอทที่ถูกเทรน โดยจัดทำโปรโตไทป์ใน canva </p>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="head">
+            <h2> กิจกรรมอื่น ๆ </h2>
+        </div>
+        <div class="content">
+            <div class="content_1">
+                <div class="slide" style="margin: 0;">
+                    <div class="items">
+                        <img src="photos/กีฬาสี4_3.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กีฬาสี4_1.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กีฬาสี4_5.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กีฬาสี4_2.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กีฬาสี4_4.png" >
+                    </div>
+                </div>
+                <div class="subhead">
+                    <h3> กิจกรรมกีฬาสี 2022  </h3>
+                </div>
+                <div class="detail">
+                    <p> ได้รับหน้าที่จัดพาเหรด ออกแบบ และร่วมเดินพาเหรด ได้ฝึกความรับผิดชอบ การทำงานร่วมกับผู้อื่น และความคิดสร้างสรรค์ </p>
+                </div>
+            </div>
+            <div class="content_2">
+                <div class="slide" style="margin: 0;">
+                    <div class="items">
+                        <img src="photos/กีฬาสี5_1.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กีฬาสี5_4.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กีฬาสี5_5.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กีฬาสี5_3.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กีฬาสี5_6.jpg" >
+                    </div>
+                </div>
+                <div class="subhead">
+                    <h3> กิจกรรมกีฬาสี 2023 </h3>
+                </div>
+                <div class="detail">
+                    <p> ได้รับหน้าที่ทำคัทเอาต์ ได้ฝึกความรับผิดชอบ การทำงานร่วมกับผู้อื่น และความคิดสร้างสรรค์ </p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_1">
+                <div class="slide" style="margin: 0;">
+                    <div class="items">
+                        <img src="photos/กิจคริสมาส1.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจคริสมาส2.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจคริสมาส3.jpg" >
+                    </div>
+                </div>
+                <div class="subhead">
+                    <h3> SKN INTERNATIONAL DAY 2022 </h3>
+                </div>
+                <div class="detail">
+                    <p> กิจกรรมตั้งซุ้มขายของ ได้ฝึกบริหารกิจการของร้านประจำห้อง ได้ต้อนรับลูกค้า และคิดเงิน </p>
+                </div>
+            </div>
+            <div class="content_2">
+                <div class="slide" style="margin: 0;">
+                    <div class="items">
+                        <img src="photos/กิจรีไซเคิล2.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจรีไซเคิล3.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/กิจรีไซเคิล1.jpg" >
+                    </div>
+                </div>
+                <div class="subhead">
+                    <h3> กิจกรรมสัปดาห์วิทยาศาสตร์และเทคโนโลยีแห่งชาติ 2022  </h3>
+                </div>
+                <div class="detail">
+                    <p> เข้าร่วมการแข่งขันประกวดทำชุดรีไซเคิล ทำจากล็อตเตอรี่ที่ไม่ได้ใช้แล้ว </p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_1">
+                <div class="slide" style="margin: 0;">
+                    <div class="items">
+                        <img src="photos/พาน4_1.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/พาน4_2.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/พาน4_3.png" >
+                    </div>
+                </div>
+                <div class="subhead">
+                    <h3> กิจกรรมประกวดแข่งขันทำพานไหว้ครู 2022 </h3>
+                </div>
+                <div class="detail">
+                    <p> ได้เข้าร่วมกิจกรรมทำพานไหว้ครูประเภทสวยงามและ ได้รางวัลอันดับที่ 3 </p>
+                </div>
+            </div>
+            <div class="content_2">
+                <div class="slide" style="margin: 0;">
+                    <div class="items">
+                        <img src="photos/ทำพาน5_1" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/ทำพาน5_2.png" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/ทำพาน5_3.jpg" >
+                    </div>
+                </div>
+                <div class="subhead">
+                    <h3> กิจกรรมประกวดแข่งขันทำพานไหว้ครู 2023 </h3>
+                </div>
+                <div class="detail">
+                    <p> ได้เข้าร่วมกิจกรรมทำพานไหว้ครูประเภทสร้างสรรค์ </p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_1">
+                <div class="slide" style="margin: 0;">
+                    <div class="items">
+                        <img src="photos/ทำพาน6_1.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/ทำพาน6_2.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/ทำพาน6_3.jpg" >
+                    </div>
+                </div>
+                <div class="subhead">
+                    <h3> กิจกรรมประกวดแข่งขันทำพานไหว้ครู 2024 </h3>
+                </div>
+                <div class="detail">
+                    <p> ได้เข้าร่วมกิจกรรมทำพานไหว้ครูประเภทสร้างสรรค์ </p>
+                </div>
+            </div>
+            <div class="content_2">
+                <div class="slide" style="margin: 0;">
+                    <div class="items">
+                        <img src="photos/ถวายเทียน1.jpg" >
+                    </div>
+                    <div class="items">
+                        <img src="photos/ถวายเทียน2.jpg" >
+                    </div>
+                </div>
+                <div class="subhead">
+                    <h3> กิจกรรมถวายเทียนพรรษา </h3>
+                </div>
+                <div class="detail">
+                    <p> ถวายเทียนพรรษา ณ วัดผาสุกมณีจักร</p>
+                </div>
+            </div>
+        </div>
+
+    <script>
+        $(document).ready(() => {
+            $('.slide').slick({
+                dots: true
+            });
+            $('.slide .slick-prev').html('<i class="fa-solid fa-chevron-left"></i>');
+            $('.slide .slick-next').html('<i class="fa-solid fa-chevron-right"></i>');
+            $('.slide .slick-dots li').html('')
+            $('slick-track').style('')
+                })
+    </script>
+
+    <script src="parallax.min.js"></script>
+    <script>
+        var parallax = new Parallax('.parallax');
+        parallax.init();
+    </script>
+
+    <div class="contact">
+        <div class="contacthead">
+            <h3> Contact me ! </h3>
+        </div>
+        <div class="contactflex">
+            <div class="maincontact_1">
+                <p> Email : stang.wiramol@gmail.com </p>
+                <p> Line : stang_911</p>
+                <p> Tel : 080-014-4236 </p>
+            </div>
+            <div class="maincontact_2">
+                <p> IG : ssgnqt </p>
+                <p> Facebook : Wiramon Magird </p>
+                <p> Github : jubiep </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
